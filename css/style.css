@@ -51,44 +51,6 @@ nav a:hover {
 }
 
 
-/* comming soon info*/
-/* .current-page-info {
-  font-size: 40px;
-}
-
-.main-section {
-  width: 1000px;
-  height: 450px;
-  margin-top: 25px;
-}
-
-.coming-soon-image {
-  background-image: url(../images/coming_soon.jpg);
-  width: 550px;
-  height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.main-page {
-  width: 450px;
-  height: 450px;
-}
-.main-page p {
-  padding: 215px 115px;
-}
-.main-page p a {
-  color: rgb(15, 105, 157);
-  text-decoration: none;
-}
-
-.main-page p a:hover {
-  color: rgb(230, 195, 23);
-} */
-
-/* table */
-
-/*Search*/
 .div1 {
   display: none;
 }
@@ -108,11 +70,6 @@ nav a:hover {
 .show-filter:hover {
   background-color: rgb(202, 192, 192);
 }
-
-/* .tb {
-  /* margin-left: 20%; */
-  /* max-width: 1500px; */
-
 
 
 .edit{
