@@ -1,0 +1,232 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  width: 70%;
+}
+
+header {
+  box-shadow: 0.5px 5px 20px rgba(109, 103, 103, 0.31);
+  color: #7d7878fa;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav{
+  display: flex;
+  align-items: center;
+}
+.logo {
+  float: left;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 25px;
+  padding-top: 40px;
+}
+
+nav a {
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: rgb(255, 0, 0);
+}
+
+.next-to{
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  margin-top: 40px;
+  margin-bottom: -30px;
+}
+
+
+/* comming soon info*/
+/* .current-page-info {
+  font-size: 40px;
+}
+
+.main-section {
+  width: 1000px;
+  height: 450px;
+  margin-top: 25px;
+}
+
+.coming-soon-image {
+  background-image: url(../images/coming_soon.jpg);
+  width: 550px;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-page {
+  width: 450px;
+  height: 450px;
+}
+.main-page p {
+  padding: 215px 115px;
+}
+.main-page p a {
+  color: rgb(15, 105, 157);
+  text-decoration: none;
+}
+
+.main-page p a:hover {
+  color: rgb(230, 195, 23);
+} */
+
+/* table */
+
+/*Search*/
+.div1 {
+  display: none;
+}
+.Search {
+  width: 380px;
+  height: 30px;
+  display: flex;
+}
+.textfinder {
+  width: 250px;
+}
+.show-filter {
+  width: 100px;
+  font-size: 15px;
+  background-color: white;
+}
+.show-filter:hover {
+  background-color: rgb(202, 192, 192);
+}
+
+/* .tb {
+  /* margin-left: 20%; */
+  /* max-width: 1500px; */
+
+
+
+.edit{
+  display: flex;
+  padding: 4px;
+  color: white;
+  width: 40px;
+  background-color: rgb(131, 136, 135);
+}
+.delete{
+  width: 50px;
+  background-color: red;
+  color:white;
+  padding: 4px;
+}
+.add{
+  width: 50px;
+  background-color: yellowgreen;
+  color: black;
+  padding: 4px;
+}
+.table-wrapper {
+  width: 1200px;
+  margin: 30px auto;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 20px;
+}
+.table-title {
+  padding-bottom: 10px;
+  margin: 0 0 10px;
+}
+.table-title h2 {
+  margin: 6px 0 0;
+  font-size: 22px;
+}
+.table-title .add-new {
+  float: right;
+  height: 30px;
+  font-weight: bold;
+  font-size: 12px;
+  text-shadow: none;
+  min-width: 100px;
+  border-radius: 50px;
+  line-height: 13px;
+}
+.col-sm-4{
+  margin-left: 250px;
+}
+
+.table-title .add-new i {
+  margin-right: 4px;
+}
+.table {
+  table-layout: fixed;
+}
+.table th i {
+  font-size: 13px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.table tr:nth-child(even) {
+  background-color: #e7dfdf;
+}
+.table td a {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 5px;
+  min-width: 24px;
+}
+
+.table td i {
+  font-size: 19px;
+}
+.table td a.add i {
+  font-size: 24px;
+  margin-right: -1px;
+  position: relative;
+  top: 3px;
+}
+.table .form-control {
+  height: 32px;
+  line-height: 32px;
+  box-shadow: none;
+  border-radius: 2px;
+}
+.table .form-control.error {
+  border-color: #f50000;
+}
+.table td .add {
+  display: none;
+}
+
+
+/* coming-soon */
+.page-name{
+  margin-top: 30px;
+  margin-left: 80px;
+  font-size: 50px;
+}
+.main-content{
+  max-width: 1000px;
+}
+.comin-soon-content{
+  display: flex;
+  align-items: center;
+}
+.link-to-main{
+  font-size: 40px;
+  text-decoration: none;
+  color: blue;
+}
+.link-to-main:hover{
+  text-decoration: underline;
+  color: red;
+}
